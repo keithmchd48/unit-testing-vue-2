@@ -1,5 +1,7 @@
 # unit-testing-vue-2
 
+Based on learning resourses by Vue Mastery. [Find the lessons for Vue 2 here](https://www.vuemastery.com/courses/unit-testing/stubbing-child-components)
+
 ## Project setup
 ```
 npm install
