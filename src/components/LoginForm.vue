@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent="onSubmit">
-    <input type="text" v-model="name" />
-    <button type="submit">Submit</button>
+    <input data-testid="nameInput" type="text" v-model="name" />
+    <button data-testSubmit="submitButton" type="submit">Submit</button>
   </form>
 </template>
 
@@ -9,13 +9,13 @@
 export default {
   data() {
     return {
-      name: ''
+      name: '',
     }
   },
   methods: {
     onSubmit() {
       this.$emit('formSubmitted', { name: this.name })
-    }
-  }
+    },
+  },
 }
 </script>

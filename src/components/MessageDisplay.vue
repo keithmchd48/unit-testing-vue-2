@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       message: {},
-      error: null
+      error: null,
     }
   },
 
@@ -20,6 +20,6 @@ export default {
     } catch (err) {
       this.error = 'Oops! Something went wrong.'
     }
-  }
+  },
 }
 </script>
